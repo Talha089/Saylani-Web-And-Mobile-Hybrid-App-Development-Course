@@ -1,4 +1,4 @@
-# Saylani-Web-And-Mobile-Hybrid-App-Development-CourseHTML5
+# Saylani-Web-And-Mobile-Hybrid-App-Development-Course
 * HTML5
 * CSS3
 * Bootstrap
