@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <!-- <form action="http://www.example.com/subscribe.php"
+            method="get">
+    <p>This is where the form controls will appear.</p>
+    </form> -->
+
+    <!-- Form Input -->
+    <form action="http://www.example.com/login.php">
+        <p>Username:
+            <input type="text" name="username" size="25"
+                maxlength="30" />
+        </p>
+        <p>Password:
+            <input type="password" name="password" size="25"
+                maxlength="30" />
+        </p>
+<!-- Text Area -->
+        <p>What did you think of this gig?</p>
+        <textarea name="comments" cols="25" rows="4">Enter your comments...</textarea>
+        <p>Please select your favorite genre:
+            <br />
+        <input type="radio" name="genre" value="rock" checked="checked" /> Rock
+        <input type="radio" name="genre" value="pop" /> Pop
+        <input type="radio" name="genre" value="jazz" />   Jazz
+   </p>
+   <p>
+       Gender:
+       <br>
+       male: <input type="radio" name="Gender" value="male"  >
+       female: <input type="radio" name="Gender" value="female">
+       others: <input type="radio" name="Gender" value="others" >
+   </p>
+        </form>
+
+        <!-- Checkbox -->
+        <p>
+            Select More than one option <br>
+            My Favourite Fruits <br> 
+            Apple : <input type="checkbox" name="Answer" value="Apple"> <br>
+            Mango : <input type="checkbox" name="Answer" value="Mango"> <br>
+            Orange : <input type="checkbox" name="Answer" value="Orange"> <br>
+            Grapes : <input type="checkbox" name="Answer" value="Grapes"> <br>
+        </p>
+
+            <!-- Dropdown -->
+        <p>
+            Select your country <br>
+            <select name="Country">
+                <option value="Pakistan">Pakistan</option>
+                <option  selected value="KSA">KSA</option>
+                <option value="USA">USA</option>
+                <option value="OMAN">OMAN</option>
+
+            </select>
+        </p>
+
+            <!-- Upload File -->
+        <p>
+            Upload Your File
+            <input type="file" name="">
+        </p>
+
+        <p>
+            Submit your response
+            <input type="submit" value="Submit">
+        </p>
+</body>
+</html>
